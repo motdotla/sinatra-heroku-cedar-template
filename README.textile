@@ -1,0 +1,26 @@
+h1. Sinatra Heroku Cedar Template
+
+p. The bare minimum for a sinatra app on cedar, running thin, and using bundler.
+
+h2. Putting it up on Heroku
+
+<pre>
+  $ git clone git://github.com/scottmotte/sinatra-heroku-cedar-template.git
+  $ gem install bundler
+  $ bundle
+  $ heroku create -s cedar mywebapp
+  $ git push heroku master
+  $ heroku open
+</pre>
+
+
+h2. Running it locally
+
+<pre>
+  $ git clone git://github.com/scottmotte/sinatra-heroku-cedar-template.git
+  $ gem install bundler
+  $ bundle
+  $ RACK_ENV=development be foreman start
+</pre>
+
+Navigate to localhost:5000 | 5100
