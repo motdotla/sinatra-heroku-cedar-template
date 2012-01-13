@@ -20,7 +20,7 @@ h2. Running it locally
   $ git clone git://github.com/scottmotte/sinatra-heroku-cedar-template.git
   $ gem install bundler
   $ bundle
-  $ RACK_ENV=development be foreman start
+  $ RACK_ENV=development bundle exec foreman start
 </pre>
 
 Navigate to localhost:5000 | 5100
