@@ -63,6 +63,4 @@ p. Require and assign the processors to your asset directories:
   end
 </pre>
 
-p.
-  Restart your app and use your asset directories as normal.<br />
-  ie. views/javascripts/test.coffee and views/stylesheets/test.css
+p. Restart your app and use your asset directories as normal.<br />ie. views/javascripts/test.coffee and views/stylesheets/test.css
