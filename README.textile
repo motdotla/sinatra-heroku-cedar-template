@@ -10,7 +10,7 @@ h2. Putting it up on Heroku
   $ bundle
   $ heroku create -s cedar mywebapp
   $ git push heroku master
-  $ heroku open
+  $ bundle exec heroku open
 </pre>
 
 
@@ -24,3 +24,45 @@ h2. Running it locally
 </pre>
 
 Navigate to localhost:5000 | 5100
+
+
+h2. Add Coffeescript and Sass (Optional)
+
+p. Add the gems to the Gemfile just below sinatra:
+
+<pre>
+  gem 'sinatra'
+  gem 'coffee-script'
+  gem 'sass'
+</pre>
+
+p. Run bundler:
+
+<pre>
+  $ bundle
+</pre>
+
+p. Create directories for your assets:
+
+<pre>
+  $ mkdir views views/javascripts views/stylesheets
+</pre>
+
+p. Require and assign the processors to your asset directories:
+
+<pre>
+  require 'coffee-script'
+  require 'sass'
+
+  get '/javascripts/:script.js' do |script|
+    coffee :"javascripts/#{script}"
+  end
+
+  get '/stylesheets/:stylesheet.css' do |stylesheet|
+    scss :"stylesheets/#{stylesheet}"
+  end
+</pre>
+
+p.
+  Restart your app and use your asset directories as normal.<br />
+  ie. views/javascripts/test.coffee and views/stylesheets/test.css
