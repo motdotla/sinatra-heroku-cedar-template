@@ -9,6 +9,5 @@
   ],
   "website": "https://github.com/scottmotte/sinatra-heroku-cedar-template",
   "repository": "https://github.com/scottmotte/sinatra-heroku-cedar-template",
-  "logo": "https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg",
-  }
+  "logo": "https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg"
 }
