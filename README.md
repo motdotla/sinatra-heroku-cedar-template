@@ -1,5 +1,7 @@
 # Sinatra Heroku Cedar Template
 
+![](https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg)
+
 The bare minimum for a sinatra app on cedar, running rack, and using bundler.
 
 ## Putting it up on Heroku
