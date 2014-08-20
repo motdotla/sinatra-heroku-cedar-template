@@ -4,14 +4,9 @@ The bare minimum for a sinatra app on cedar, running rack, and using bundler.
 
 ## Putting it up on Heroku
 
-```
-$ git clone git://github.com/scottmotte/sinatra-heroku-cedar-template.git
-$ gem install bundler
-$ bundle
-$ heroku create -s cedar mywebapp
-$ git push heroku master
-$ bundle exec heroku open
-```
+Deploy to Heroku by clicking this button.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Running it locally
 

@@ -1,0 +1,14 @@
+{
+  "name": "sinatra-heroku-cedar-template",
+  "description": "Sinatra Heroku Cedar Template - The bare minimum for a sinatra app on cedar, running thin, and using bundler.",
+  "keywords": [
+    "sinatra",
+    "heroku",
+    "cedar",
+    "template"
+  ],
+  "website": "https://github.com/scottmotte/sinatra-heroku-cedar-template",
+  "repository": "https://github.com/scottmotte/sinatra-heroku-cedar-template",
+  "logo": "https://raw.githubusercontent.com/scottmotte/sinatra-heroku-cedar-template/master/sinatra-heroku-cedar-template.jpg",
+  }
+}
